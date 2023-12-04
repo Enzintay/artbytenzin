@@ -1,0 +1,78 @@
+
+body{
+    background-color: rgb(43, 76, 88);
+text-align: center;
+}
+
+
+@font-face {
+    font-family: sketch;
+    src: url(KGSecondChancesSketch.ttf);
+}
+
+@font-face {
+    font-family: garden;
+    src: url(Pretty\ Garden\ -\ Serif\ Demo.ttf);
+}
+
+@font-face {
+    font-family: coffee;
+    src: url(CoffeeDreamDemoRegular.ttf);
+}
+
+h1{
+    padding-bottom: 50px;
+    font-family: garden;
+    font-size: 80px;
+    color: rgb(43, 165, 165);
+}
+img{
+    width: 800px;
+    height: 500px;
+}
+
+#display{
+    border: solid;
+    border-color: black;
+    border-width: 40px;
+    border-radius: 50px;
+    margin-bottom: 50px ;
+
+}
+
+.allButtons{
+    text-align: center;
+    column-count: 4;
+    margin-left: 14%;
+    
+
+}
+
+.button{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    border: dashed;
+    border-color: rgb(0, 0, 0);
+    font-family: sketch;
+    color: rgb(255, 255, 255);
+    background-color: rgba(99, 15, 122, 0.553);
+    
+}
+
+.button1{
+    background-color: antiquewhite;
+    color: black;
+    font-family: coffee;
+    font-size: 25px;
+}
+
+.button2{
+    background-color: rgb(44, 81, 69);
+    color: aliceblue;
+    font-family: garden;
+    font-size: 20px;
+}

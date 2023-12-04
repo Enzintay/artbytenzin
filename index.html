@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/style.css">
+<title> Serenity </title>
+
+</head>
+
+
+<body>
+
+<h1> Tranquility </h1>
+
+<img id="display"> 
+
+<div class="allButtons"> 
+
+<button class="button button1" onclick="lake()"> Vista </button>
+<button class="button button1" onclick="sun()"> Vista </button>
+<button class="button button1" onclick="pond()"> Vista </button>
+<button class="button button1" onclick="waves()"> Vista </button>
+<button class="button button1" onclick="waterfall()"> Vista </button>
+
+
+<button class="button button2" onclick="rain2()"> Rain </button>
+<button class="button button2" onclick="waves2()"> Waves </button>
+<button class="button button2" onclick="waterfall2()"> Waterfall </button>
+<button class="button button2" onclick="birds2()"> Birds </button>
+<button class="button button2" onclick="frogs2()"> Frogs </button>
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=XMn9fAmXNj0&list=PLV4I2GABAPDJg6qQTpJoMo92p_4CTe41_&index=2&ab_channel=AnimeVibe">  
+    <button class="button button3"> Click Me </button></a> 
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=LPjyRsskOSI&list=PLV4I2GABAPDJg6qQTpJoMo92p_4CTe41_&index=3&ab_channel=AnimeVibe">
+    <button class="button button3"> Click Me </button></a>
+
+<a target="_blank" rel="noopener noreferrer" href=https://www.youtube.com/watch?v=ph50QT2W8-4&list=PLV4I2GABAPDJg6qQTpJoMo92p_4CTe41_&index=5&ab_channel=MrSuicideSheep>
+    <button class="button button3"> Click Me </button></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=3rQHEIkPfhw&list=PLV4I2GABAPDJg6qQTpJoMo92p_4CTe41_&index=6&ab_channel=thebootlegboy">
+    <button class="button button3"> Click Me </button></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=XDpoBc8t6gE&list=PLV4I2GABAPDJg6qQTpJoMo92p_4CTe41_&index=8&ab_channel=Ikigai">
+    <button class="button button3"> Click Me </button></a>
+
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=DFVuYoDVS_g&list=PLV4I2GABAPDJg6qQTpJoMo92p_4CTe41_&index=45&ab_channel=Lee-Topic">
+    <button class="button button4"> Click Me </button></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=IfIGKsET23k&list=PLV4I2GABAPDJg6qQTpJoMo92p_4CTe41_&index=30&ab_channel=FloFi">
+    <button class="button button4"> Click Me </button></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=nQ7JNLy3MFI&ab_channel=Ikigai">
+    <button class="button button4"> Click Me </button></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=H9c42KyVCw0&ab_channel=Inspira">
+    <button class="button button4"> Click Me </button></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=zMH3yr0ChhA&list=PLV4I2GABAPDKxEOm_WpVAS2X_TkPubEuT&index=1&ab_channel=TaiGekTou">
+    <button class="button button4"> Click Me </button></a>
+
+
+</div>
+
+
+<script> function lake(){  
+    document.getElementById("display").src = "assets/lake01.png" }
+
+</script>
+
+<script> function sun(){
+    document.getElementById("display").src = "assets/sunset01.jpg"}
+
+</script>
+
+<script> function pond(){
+document.getElementById("display").src = "assets/pond01.jpg"}
+
+</script>
+
+<script> function waves(){
+document.getElementById("display").src = "assets/waves01.jpg"}
+
+</script>
+
+<script> function waterfall(){
+document.getElementById("display").src = "assets/waterfall01.jpg"}
+
+</script>
+
+
+<audio id="rain2">
+    <source src="assets/rain02.wav" type="audio/wav">
+    <audio>
+      
+
+      <script>
+          var x = document.getElementById("rain2"); 
+          
+          function rain2() { 
+              if (x.paused) {
+      x.play();
+  }
+  else {
+      x.pause();
+  }
+};
+          </script>
+
+<audio id="waves2">
+  <source src="assets/waves02.wav" type="audio/wav">
+  <audio>
+    
+
+    <script>
+        var y = document.getElementById("waves2"); 
+        
+        function waves2() { 
+          if (y.paused) {
+      y.play();
+  }
+  else {
+      y.pause();
+  }
+};
+        </script>
+
+  <audio id="waterfall2">
+    <source src="assets/waterfall02.wav" type="audio/wav">
+    <audio>
+      
+
+      <script>
+          var a = document.getElementById("waterfall2"); 
+          
+          function waterfall2() { 
+              if (a.paused) {
+      a.play();
+  }
+  else {
+      a.pause();
+  }
+};
+          </script>
+
+</script>
+
+<audio id="waterfall2">
+<source src="assets/waterfall02.wav" type="audio/wav">
+<audio>
+  
+
+  <script>
+      var a = document.getElementById("waterfall2"); 
+      
+      function waterfall2() { 
+          if (a.paused) {
+  a.play();
+}
+else {
+  a.pause();
+}
+};
+      </script>
+      
+<audio id="birds2">
+  <source src="assets/birds02.wav" type="audio/wav">
+      <audio>
+            
+    
+            <script>
+                var b = document.getElementById("birds2"); 
+                
+                function birds2() { 
+                    if (b.paused) {
+            b.play();
+        }
+        else {
+            b.pause();
+        }
+    };
+                </script>
+
+<audio id="frogs2">
+  <source src="assets/frogs02.wav" type="audio/wav">
+  <audio>
+    
+
+    <script>
+        var c = document.getElementById("frogs2"); 
+        
+        function frogs2() { 
+            if (c.paused) {
+    c.play();
+}
+else {
+    c.pause();
+}
+};
+        </script>
+
+
+</body>
+
+
+
+
+
+
+
+</html>
